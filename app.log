@@ -1,0 +1,4 @@
+[2025-01-05 19:16:26] [DEBUG] Debugging application initialization.
+[2025-01-05 19:16:26] [WARN] Low memory warning.
+[2025-01-05 19:16:26] [ERROR] An error occurred while connecting to the database.
+[2025-01-05 19:16:26] [FATAL] System crash: Unable to recover!
