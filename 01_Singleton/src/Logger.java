@@ -11,8 +11,10 @@ public class Logger {
 
     private Logger() {
         try {
+            String logFilePath = Logger.class.getClassLoader().getResource("log/app.log").getPath();
+            System.out.println("*******"+logFilePath);
             // Initialize file writer for logging to a file
-            fileWriter = new BufferedWriter(new FileWriter("app.log", true)); // Append mode
+            fileWriter = new BufferedWriter(new FileWriter(logFilePath, true)); // Append mode
         } catch (IOException e) {
             System.err.println("Failed to initialize file logging: " + e.getMessage());
         }

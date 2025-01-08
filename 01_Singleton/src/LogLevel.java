@@ -1,4 +1,3 @@
-package Singleton;
 public enum LogLevel {
     INFO,
     DEBUG,
